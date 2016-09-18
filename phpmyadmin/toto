@@ -1,0 +1,4 @@
+docker run -d --name pma25 -e PMA_ARBITRARY=1 -p 104:80 inducido/phpmyadmin
+docker run -d --name pma2  -e PMA_HOST=other-apps.cwau19nl0jmg.us-east-1.rds.amazonaws.com -p 105:80 inducido/phpmyadmin
+
+
